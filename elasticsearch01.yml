@@ -1,0 +1,9 @@
+cluster.name: "elastic-basic-docker"
+network.host: 0.0.0.0
+path.repo: ["/usr/share/elasticsearch/backup"]
+
+xpack.security.enabled: true
+xpack.security.transport.ssl.enabled: true
+xpack.security.transport.ssl.verification_mode: certificate
+xpack.security.transport.ssl.keystore.path: elastic-certificates.p12
+xpack.security.transport.ssl.truststore.path: elastic-certificates.p12

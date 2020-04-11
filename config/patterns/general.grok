@@ -1,9 +1,0 @@
-CARACTER [a-zA-Z]+
-TWOWORD %{WORD} %{WORD}
-ADDED_CONTACT adding contact
-ADDED_TAG Adding Tag
-MOVING_FOLDER moving Folder
-MOVING_CONTACT moving Contact
-MODIFYING_CONTACT modifying contact
-DELETE_FOLDER Deleting Folder
-DELETE_CONTACT Deleting Contact

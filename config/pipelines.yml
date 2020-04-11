@@ -17,13 +17,8 @@
 # Available options:
 #
 #   # name of the pipeline
-  - pipeline.id: zimbra-msg
-    path.config: /usr/share/logstash/config/conf.d/zimbra-msg.conf
-    pipeline.workers: 2
-
-  - pipeline.id: granatum
-    path.config: /usr/share/logstash/config/conf.d/edu.conf
-    pipeline.workers: 1
+  - pipeline.id: zmain
+    path.config: /usr/share/logstash/config/conf.d/*.conf
 
 #   # The configuration string to be used by this pipeline
 #   config.string: "input { generator {} } filter { sleep { time => 1 } } output { stdout { codec => dots } }"

@@ -61,7 +61,7 @@ Se RedHat7
 ## Passo 5 - Clonando os scripts Elastic Stack
 ```
 # cd /opt/ 
-# git clone https://github.com/gleberrl/elastic.git
+# git clone https://github.com/gleberrl/elastic-basic.git
 ```
 ## Passo 6 - Subindo as instancias de Elasticsearch, Kibana e Logstash com docker-compose
 **OBS:** Após realizado o clone do repositório você perceberá que dentro da pasta elastic possui o arquivo do docker-compose.yml e arquivos de configuração da pilha.
